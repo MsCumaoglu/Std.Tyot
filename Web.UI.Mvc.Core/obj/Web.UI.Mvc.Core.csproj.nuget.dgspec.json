@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Misso\\source\\repos\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj": {}
+    "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Misso\\source\\repos\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj": {
+    "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Misso\\source\\repos\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj",
         "projectName": "Web.UI.Mvc.Core",
-        "projectPath": "C:\\Users\\Misso\\source\\repos\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj",
+        "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj",
         "packagesPath": "C:\\Users\\Misso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Misso\\source\\repos\\Std.Tyot\\Web.UI.Mvc.Core\\obj\\",
+        "outputPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Web.UI.Mvc.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
