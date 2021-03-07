@@ -1,0 +1,227 @@
+﻿
+<header class="version_2">
+    <div class="layer"></div><!-- Mobile menu overlay mask -->
+    <div class="main_header Sticky">
+        <div class="container">
+            <div class="row small-gutters">
+                <!-- Logo -->
+                <div class="col-xl-3 col-lg-3 d-lg-flex align-items-center">
+                    <div id="logo">
+                        <a href="index.html"><img src="~/img/logo_black.svg" alt="" width="100" height="35"></a>
+                    </div>
+                </div>
+                <!-- NavBar -->
+                <nav class="col-xl-8 col-lg-8">
+                    <a class="open_close" href="javascript:void(0);">
+                        <div class="hamburger hamburger--spin">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Mobile menu button -->
+                    <div class="main-menu" dir="rtl" id="altNav">
+                        <div id="header_menu">
+                            <a href="index.html"><img src="~/img/logo_black.svg" alt="" width="100" height="35"></a>
+                            <a href="#" class="open_close" id="close_in"><i class="ti-close"></i></a>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="@Url.Action("Index","Home")">الرئيسية</a>
+                            </li>
+                            <li class="megamenu submenu @ViewBag.universities">
+                                <a class="show-submenu-mega">التعليم الجامعي</a>
+                                <div class="menu-wrapper">
+                                    <div class="row small-gutters">
+                                        <div class="col-lg-3">
+                                            <h3>الجامعات</h3>
+                                            <ul>
+                                                <li><a href="@Url.Action("Index","Universities")">الجامعات الخاصة</a></li>
+                                                <li><a href="@Url.Action("Index","Universities")">الجامعات الحكومية</a></li>
+                                                <li><a href="@Url.Action("Single","Universities")">السكنات الطلابية</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <h3>الاختبارات</h3>
+                                            <ul>
+                                                <li><a href="#"> اليوس(YÖS)</a></li>
+                                                <li><a href="#">سات (SAT)</a></li>
+                                                <li><a href="#">التومر (TÖMER)</a></li>
+                                                <li><a href="#">الالتس (IELTS)</a></li>
+                                                <li><a href="#">توفيل (TOEFL)</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <h3>المنح</h3>
+                                            <ul>
+                                                <li><a href="#">منحة الدولة النركية</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                                            <div class="banner_menu">
+                                                <a href="#0">
+                                                    <img src="~/img/oxfordshire_dil.jpeg" width="400" height="550" alt="" class="img-fluid lazy">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /row -->
+                                </div>
+                                <!-- /menu-wrapper -->
+                            </li>
+                            <li class="megamenu submenu">
+                                <a class="show-submenu-mega">التعليم في تركيا</a>
+                                <div class="menu-wrapper">
+                                    <div class="row small-gutters">
+                                        <div class="col-lg-3">
+                                            <h3>الكورسات</h3>
+                                            <ul>
+                                                <li><a href="#"> اليوس(YÖS)</a></li>
+                                                <li><a href="#">سات (SAT)</a></li>
+                                                <li><a href="#">التومر (TÖMER)</a></li>
+                                                <li><a href="#">الالتس (IELTS)</a></li>
+                                                <li><a href="#">توفيل (TOEFL)</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                                            <div class="banner_menu">
+                                                <a href="#0">
+                                                    <img src="~/img/oxfordshire_dil.jpeg" width="400" height="550" alt="" class="img-fluid lazy">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <h3>مدارس الخاصة</h3>
+                                            <ul>
+                                                <li><a href="#"></a></li>
+                                                <li><a href="#"></a></li>
+                                                <li><a href="#"></a></li>
+                                                <li><a href="#"></a></li>
+                                                <li><a href="#"></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                                            <div class="banner_menu">
+                                                <a href="#0">
+                                                    <img src="~/img/oxfordshire_dil.jpeg" width="400" height="550" alt="" class="img-fluid lazy">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /row -->
+                                </div>
+                            </li>
+                            <li class="megamenu submenu">
+                                <a class="show-submenu-mega">خدماتنا</a>
+                                <div class="menu-wrapper">
+                                    <div class="row small-gutters">
+                                        <div class="col-lg-3">
+                                            <h3>التسجبل الجامعي</h3>
+                                            <ul>
+                                                <li><a href="#">التسجبل على الجامعات الخاصة</a></li>
+                                                <li><a href="#">التسجبل على الجامعات الحكومية</a></li>
+                                                <li><a href="#">التسجبل على اختبارات</a></li>
+                                                <li><a href="#">التسجبل على المنح</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <h3>التأمينات</h3>
+                                            <ul>
+                                                <li><a href="#">التأمين الصحي للإقامة</a></li>
+                                                <li><a href="#">التأمين الصحي للسفر</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <h3>الإقامات التركية</h3>
+                                            <ul>
+                                                <li><a href="#">الإقامة السياحية</a></li>
+                                                <li><a href="#">إقامة الطالب</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                                            <div class="banner_menu">
+                                                <a href="#0">
+                                                    <img src="~/img/oxfordshire_dil.jpeg" width="400" height="550" alt="" class="img-fluid lazy">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /row -->
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">تجمع الطلاب</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index","Blog")">مقالات</a>
+                            </li>
+                            <li>
+                                <a href="#">من نحن؟</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/main-menu -->
+                </nav>
+                <!-- Account -->
+                <div class="col-xl-1 col-lg-1 d-lg-flex align-items-center justify-content-end text-right">
+                    <ul class="top_tools">
+                        <li>
+                            <a href="#sign-in-dialog" id="sign-in" class="access_link"><span>Account</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /main_header -->
+    </div>
+</header>
+<!-- /header -->
+<!-- Sign In Modal -->
+<div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
+    <div class="modal_header">
+        <h3>Sign In</h3>
+    </div>
+    <form>
+        <div class="sign-in-wrapper">
+            <a href="#0" class="social_bt facebook">Login with Facebook</a>
+            <a href="#0" class="social_bt google">Login with Google</a>
+            <div class="divider"><span>Or</span></div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" name="email" id="email">
+                <i class="ti-email"></i>
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" name="password" id="password" value="">
+                <i class="ti-lock"></i>
+            </div>
+            <div class="clearfix add_bottom_15">
+                <div class="checkboxes float-left">
+                    <label class="container_check">
+                        Remember me
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="float-right mt-1"><a id="forgot" href="javascript:void(0);">Forgot Password?</a></div>
+            </div>
+            <div class="text-center">
+                <input type="submit" value="Log In" class="btn_1 full-width">
+                Don’t have an account? <a href="account.html">Sign up</a>
+            </div>
+            <div id="forgot_pw">
+                <div class="form-group">
+                    <label>Please confirm login email below</label>
+                    <input type="email" class="form-control" name="email_forgot" id="email_forgot">
+                    <i class="ti-email"></i>
+                </div>
+                <p>You will receive an email containing a link allowing you to reset your password to a new preferred one.</p>
+                <div class="text-center"><input type="submit" value="Reset Password" class="btn_1"></div>
+            </div>
+        </div>
+    </form>
+    <!--form -->
+</div>
+<!-- /Sign In Modal -->

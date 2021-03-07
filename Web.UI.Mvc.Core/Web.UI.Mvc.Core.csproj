@@ -4,4 +4,26 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\about.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\account.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\blog.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\cart.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\checkout.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\contact.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\error_track.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\faq.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\home_1.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\leave_review.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\listing.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\product_page.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\style.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\_mixin.scssc" />
+    <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\_variables.scssc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
 </Project>

@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Misso\\source\\repos\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj": {}
+    "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Misso\\source\\repos\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj": {
+    "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Misso\\source\\repos\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj",
+        "projectUniqueName": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj",
         "projectName": "Web.UI.Mvc.Core",
-        "projectPath": "C:\\Users\\Misso\\source\\repos\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj",
-        "packagesPath": "C:\\Users\\Misso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Misso\\source\\repos\\Std.Tyot\\Web.UI.Mvc.Core\\obj\\",
+        "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj",
+        "packagesPath": "C:\\Users\\syabd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Web.UI.Mvc.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Misso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\syabd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -43,6 +45,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
         }
       }
     }
