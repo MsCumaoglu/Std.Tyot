@@ -19,11 +19,11 @@
   font-size: 21px;
   font-size: 1.3125rem;
 }
-    .box_contacts i {
-        font-size: 46px;
-        font-size: 2.875rem;
-        color: #0c3869;
-    }
+.box_contacts i {
+  font-size: 46px;
+  font-size: 2.875rem;
+  color: #004dda;
+}
 .box_contacts a {
   color: #444;
 }

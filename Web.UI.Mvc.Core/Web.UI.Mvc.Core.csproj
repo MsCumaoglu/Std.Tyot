@@ -5,6 +5,53 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\.DS_Store" />
+    <Content Remove="wwwroot\css\about.css" />
+    <Content Remove="wwwroot\css\account.css" />
+    <Content Remove="wwwroot\css\ajax-loader.gif" />
+    <Content Remove="wwwroot\css\blog.css" />
+    <Content Remove="wwwroot\css\bootstrap.css" />
+    <Content Remove="wwwroot\css\bootstrap.custom.css" />
+    <Content Remove="wwwroot\css\bootstrap.custom.min.css" />
+    <Content Remove="wwwroot\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\css\cart.css" />
+    <Content Remove="wwwroot\css\checkout.css" />
+    <Content Remove="wwwroot\css\contact.css" />
+    <Content Remove="wwwroot\css\custom.css" />
+    <Content Remove="wwwroot\css\error_track.css" />
+    <Content Remove="wwwroot\css\faq.css" />
+    <Content Remove="wwwroot\css\fonts\.DS_Store" />
+    <Content Remove="wwwroot\css\fonts\fontello-pack.eot" />
+    <Content Remove="wwwroot\css\fonts\fontello-pack.svg" />
+    <Content Remove="wwwroot\css\fonts\fontello-pack.ttf" />
+    <Content Remove="wwwroot\css\fonts\fontello-pack.woff" />
+    <Content Remove="wwwroot\css\fonts\fontello-pack.woff2" />
+    <Content Remove="wwwroot\css\fonts\fontello.eot" />
+    <Content Remove="wwwroot\css\fonts\fontello.svg" />
+    <Content Remove="wwwroot\css\fonts\fontello.ttf" />
+    <Content Remove="wwwroot\css\fonts\fontello.woff" />
+    <Content Remove="wwwroot\css\fonts\fontello.woff2" />
+    <Content Remove="wwwroot\css\fonts\header_icons.eot" />
+    <Content Remove="wwwroot\css\fonts\header_icons.svg" />
+    <Content Remove="wwwroot\css\fonts\header_icons.ttf" />
+    <Content Remove="wwwroot\css\fonts\header_icons.woff" />
+    <Content Remove="wwwroot\css\fonts\Pe-icon-7-stroke.eot" />
+    <Content Remove="wwwroot\css\fonts\Pe-icon-7-stroke.svg" />
+    <Content Remove="wwwroot\css\fonts\Pe-icon-7-stroke.ttf" />
+    <Content Remove="wwwroot\css\fonts\Pe-icon-7-stroke.woff" />
+    <Content Remove="wwwroot\css\fonts\themify.eot" />
+    <Content Remove="wwwroot\css\fonts\themify.svg" />
+    <Content Remove="wwwroot\css\fonts\themify.ttf" />
+    <Content Remove="wwwroot\css\fonts\themify.woff" />
+    <Content Remove="wwwroot\css\home_1.css" />
+    <Content Remove="wwwroot\css\jquery.mmenu.all.css" />
+    <Content Remove="wwwroot\css\leave_review.css" />
+    <Content Remove="wwwroot\css\listing.css" />
+    <Content Remove="wwwroot\css\product_page.css" />
+    <Content Remove="wwwroot\css\style.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\about.scssc" />
     <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\account.scssc" />
     <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\blog.scssc" />
@@ -20,6 +67,50 @@
     <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\style.scssc" />
     <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\_mixin.scssc" />
     <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\_variables.scssc" />
+    <None Include="wwwroot\css\.DS_Store" />
+    <None Include="wwwroot\css\about.css" />
+    <None Include="wwwroot\css\account.css" />
+    <None Include="wwwroot\css\ajax-loader.gif" />
+    <None Include="wwwroot\css\blog.css" />
+    <None Include="wwwroot\css\bootstrap.css" />
+    <None Include="wwwroot\css\bootstrap.custom.css" />
+    <None Include="wwwroot\css\bootstrap.custom.min.css" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\cart.css" />
+    <None Include="wwwroot\css\checkout.css" />
+    <None Include="wwwroot\css\contact.css" />
+    <None Include="wwwroot\css\custom.css" />
+    <None Include="wwwroot\css\error_track.css" />
+    <None Include="wwwroot\css\faq.css" />
+    <None Include="wwwroot\css\fonts\.DS_Store" />
+    <None Include="wwwroot\css\fonts\fontello-pack.eot" />
+    <None Include="wwwroot\css\fonts\fontello-pack.svg" />
+    <None Include="wwwroot\css\fonts\fontello-pack.ttf" />
+    <None Include="wwwroot\css\fonts\fontello-pack.woff" />
+    <None Include="wwwroot\css\fonts\fontello-pack.woff2" />
+    <None Include="wwwroot\css\fonts\fontello.eot" />
+    <None Include="wwwroot\css\fonts\fontello.svg" />
+    <None Include="wwwroot\css\fonts\fontello.ttf" />
+    <None Include="wwwroot\css\fonts\fontello.woff" />
+    <None Include="wwwroot\css\fonts\fontello.woff2" />
+    <None Include="wwwroot\css\fonts\header_icons.eot" />
+    <None Include="wwwroot\css\fonts\header_icons.svg" />
+    <None Include="wwwroot\css\fonts\header_icons.ttf" />
+    <None Include="wwwroot\css\fonts\header_icons.woff" />
+    <None Include="wwwroot\css\fonts\Pe-icon-7-stroke.eot" />
+    <None Include="wwwroot\css\fonts\Pe-icon-7-stroke.svg" />
+    <None Include="wwwroot\css\fonts\Pe-icon-7-stroke.ttf" />
+    <None Include="wwwroot\css\fonts\Pe-icon-7-stroke.woff" />
+    <None Include="wwwroot\css\fonts\themify.eot" />
+    <None Include="wwwroot\css\fonts\themify.svg" />
+    <None Include="wwwroot\css\fonts\themify.ttf" />
+    <None Include="wwwroot\css\fonts\themify.woff" />
+    <None Include="wwwroot\css\home_1.css" />
+    <None Include="wwwroot\css\jquery.mmenu.all.css" />
+    <None Include="wwwroot\css\leave_review.css" />
+    <None Include="wwwroot\css\listing.css" />
+    <None Include="wwwroot\css\product_page.css" />
+    <None Include="wwwroot\css\style.css" />
   </ItemGroup>
 
   <ItemGroup>
