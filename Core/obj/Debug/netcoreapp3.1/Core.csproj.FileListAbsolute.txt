@@ -1,0 +1,12 @@
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.dev.json
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache

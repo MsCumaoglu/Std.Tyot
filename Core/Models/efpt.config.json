@@ -1,0 +1,223 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "TyottrContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProjectRootNamespace": "Core.Models",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[AcceptedExam]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcceptedExamUniversityMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AcceptedUniversityExam]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Artical]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ArticalTagMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Category]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Certifica]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[City]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[College]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Comment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CV]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvCertificaMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvExperienceMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvLanguageMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvProjectMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvReferenceMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CvTalentMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Exam]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ExamLanguageMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ExamUniversity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Experience]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Faculty]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Following]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Language]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LanguageCollegeMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LnaguageUniversityMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Message]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[News]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NewsTagMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Project]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reference]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Role]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoleTaskMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoomMessages]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Social]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StudingDegree]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tag]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Talent]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Task]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Team]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TeamMemberMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TeamRoom]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[University]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UniversityGalery]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[User]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserRoleMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserSetting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserSocialMap]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "DESKTOP-PKOM3EK\\MUSTAFA.Tyottr",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSpatial": false
+}

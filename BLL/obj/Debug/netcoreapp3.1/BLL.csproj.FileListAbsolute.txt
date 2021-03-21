@@ -1,0 +1,17 @@
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\bin\Debug\netcoreapp3.1\BLL.runtimeconfig.json
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\bin\Debug\netcoreapp3.1\BLL.runtimeconfig.dev.json
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\bin\Debug\netcoreapp3.1\Dal.dll
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\bin\Debug\netcoreapp3.1\Dal.pdb
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\Misso\Documents\GitHub\Std.Tyot\BLL\obj\Debug\netcoreapp3.1\BLL.genruntimeconfig.cache

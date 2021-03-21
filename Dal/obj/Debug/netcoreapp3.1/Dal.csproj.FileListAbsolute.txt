@@ -1,0 +1,15 @@
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\bin\Debug\netcoreapp3.1\Dal.deps.json
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\bin\Debug\netcoreapp3.1\Dal.runtimeconfig.json
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\bin\Debug\netcoreapp3.1\Dal.runtimeconfig.dev.json
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\bin\Debug\netcoreapp3.1\Dal.dll
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\bin\Debug\netcoreapp3.1\Dal.pdb
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\obj\Debug\netcoreapp3.1\Dal.csprojAssemblyReference.cache
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\obj\Debug\netcoreapp3.1\Dal.AssemblyInfoInputs.cache
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\obj\Debug\netcoreapp3.1\Dal.AssemblyInfo.cs
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\obj\Debug\netcoreapp3.1\Dal.csproj.CoreCompileInputs.cache
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\obj\Debug\netcoreapp3.1\Dal.csproj.CopyComplete
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\obj\Debug\netcoreapp3.1\Dal.dll
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\obj\Debug\netcoreapp3.1\Dal.pdb
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Dal\obj\Debug\netcoreapp3.1\Dal.genruntimeconfig.cache
