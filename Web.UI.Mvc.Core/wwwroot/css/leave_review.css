@@ -53,15 +53,15 @@ input[type=file] {
   border-radius: 3px;
 }
 
-    input[type=file]::-webkit-file-upload-button, input[type=file].invalid::-webkit-file-upload-button, input[type=file].valid::-webkit-file-upload-button {
-        color: #fff;
-        font-size: 13px;
-        border: 0;
-        border-radius: 3px;
-        padding: 8px 10px 8px 38px;
-        background: #0c3869 url(../img/camera.svg) 8px center no-repeat;
-        outline: none;
-    }
+input[type=file]::-webkit-file-upload-button, input[type=file].invalid::-webkit-file-upload-button, input[type=file].valid::-webkit-file-upload-button {
+  color: #fff;
+  font-size: 13px;
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 10px 8px 38px;
+  background: #004dda url(../img/camera.svg) 8px center no-repeat;
+  outline: none;
+}
 
 .latest_review > h4 {
   font-weight: 500;

@@ -35,20 +35,20 @@ a.box_topic:hover {
   transform: translateY(-10px);
 }
 a.box_topic i {
-    display: inline-block;
-    font-size: 51px;
-    font-size: 3.1875rem;
-    color: #0c3869;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-    background-color: #0044c2;
-    background-color: rgba(0, 77, 218, 0.05);
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    margin-bottom: 15px;
+  display: inline-block;
+  font-size: 51px;
+  font-size: 3.1875rem;
+  color: #004dda;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #0044c2;
+  background-color: rgba(0, 77, 218, 0.05);
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  margin-bottom: 15px;
 }
 a.box_topic h3 {
   font-size: 18px;
@@ -98,18 +98,18 @@ a.box_topic_2:hover {
   transform: translateY(-10px);
 }
 a.box_topic_2 i {
-    position: absolute;
-    left: 30px;
-    top: 30px;
-    font-size: 52px;
-    font-size: 3.25rem;
-    color: #0c3869;
-    margin-bottom: 10px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  font-size: 52px;
+  font-size: 3.25rem;
+  color: #004dda;
+  margin-bottom: 10px;
 }
 a.box_topic_2 h3 {
-    font-size: 18px;
-    font-size: 1.125rem;
-    color: #0c3869;
+  font-size: 18px;
+  font-size: 1.125rem;
+  color: #004dda;
 }
 a.box_topic_2 p {
   font-size: 16px;
@@ -132,14 +132,14 @@ a.box_topic_2 p {
   color: #444;
   display: block;
 }
-    .list_articles ul li a:hover {
-        color: #0c3869;
-        -webkit-transform: translateX(5px);
-        -moz-transform: translateX(5px);
-        -ms-transform: translateX(5px);
-        -o-transform: translateX(5px);
-        transform: translateX(5px);
-    }
+.list_articles ul li a:hover {
+  color: #004dda;
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  -o-transform: translateX(5px);
+  transform: translateX(5px);
+}
 .list_articles ul li i {
   margin-right: 10px;
   font-size: 16px;

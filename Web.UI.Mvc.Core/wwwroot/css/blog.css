@@ -112,9 +112,9 @@ article.blog .post_info h2 {
 article.blog .post_info h2 a {
   color: #333;
 }
-    article.blog .post_info h2 a:hover {
-        color: #0c3869;
-    }
+article.blog .post_info h2 a:hover {
+  color: #004dda;
+}
 article.blog .post_info ul {
   margin: 0 -30px 0 -30px;
   padding: 20px 30px 0 30px;
@@ -215,9 +215,9 @@ article.blog .post_info ul li:last-child i {
 .comments-list h3 a {
   color: #555;
 }
-    .comments-list h3 a:hover {
-        color: #0c3869;
-    }
+.comments-list h3 a:hover {
+  color: #004dda;
+}
 .comments-list li {
   margin-bottom: 10px;
   display: table;
@@ -260,9 +260,9 @@ article.blog .post_info ul li:last-child i {
 .widget ul.cats a {
   color: #555;
 }
-    .widget ul.cats a:hover {
-        color: #0c3869;
-    }
+.widget ul.cats a:hover {
+  color: #004dda;
+}
 .widget ul.cats a span {
   position: absolute;
   right: 0;
@@ -281,10 +281,10 @@ article.blog .post_info ul li:last-child i {
   display: inline-block;
   color: #333;
 }
-    .tags a:hover {
-        background-color: #0c3869;
-        color: #fff;
-    }
+.tags a:hover {
+  background-color: #004dda;
+  color: #fff;
+}
 
 .search_blog .form-group {
   position: relative;
@@ -300,9 +300,9 @@ article.blog .post_info ul li:last-child i {
   top: 5px;
   right: 0;
 }
-    .search_blog .form-group button[type="submit"]:hover {
-        color: #0c3869;
-    }
+.search_blog .form-group button[type="submit"]:hover {
+  color: #004dda;
+}
 
 /*Blog Post*/
 .singlepost {
@@ -353,22 +353,22 @@ article.blog .post_info ul li:last-child i {
 .postmeta ul li a {
   color: #777;
 }
-    .postmeta ul li a:hover {
-        color: #0c3869;
-    }
+.postmeta ul li a:hover {
+  color: #004dda;
+}
 .postmeta ul li a i {
   margin-right: 3px;
 }
 
 .dropcaps p:first-child::first-letter {
-    color: #fff;
-    background-color: #0c3869;
-    float: left;
-    font-size: 64px;
-    font-size: 4rem;
-    line-height: 1;
-    margin: 10px 15px 0 0 !important;
-    padding: 12px;
+  color: #fff;
+  background-color: #004dda;
+  float: left;
+  font-size: 64px;
+  font-size: 4rem;
+  line-height: 1;
+  margin: 10px 15px 0 0 !important;
+  padding: 12px;
 }
 
 #comments {

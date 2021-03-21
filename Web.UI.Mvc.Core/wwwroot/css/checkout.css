@@ -38,12 +38,12 @@
   border-color: transparent;
 }
 
-    .nav-tabs .nav-link.active,
-    .nav-tabs .nav-item.show .nav-link {
-        border-bottom: 2px solid #0c3869;
-        color: #0c3869;
-        background-color: transparent;
-    }
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  border-bottom: 2px solid #004dda;
+  color: #004dda;
+  background-color: transparent;
+}
 
 .tab-content.checkout {
   padding: 15px 0 0 0;
@@ -145,9 +145,9 @@
   float: right;
   color: #444;
 }
-    .payments ul li a.info:hover, .shipping ul li a.info:hover {
-        color: #0c3869;
-    }
+.payments ul li a.info:hover, .shipping ul li a.info:hover {
+  color: #004dda;
+}
 .payments ul li a.info:after, .shipping ul li a.info:after {
   font-family: 'themify';
   content: "\e718";
