@@ -39,8 +39,6 @@ namespace Web.Api.Mvc.Core
             services.AddScoped(typeof(IService<>), typeof(Service<>));
             services.AddScoped(typeof(IExamService), typeof(ExamService));
 
-
-
             services.AddDbContext<TyottrContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("SqlConStr")

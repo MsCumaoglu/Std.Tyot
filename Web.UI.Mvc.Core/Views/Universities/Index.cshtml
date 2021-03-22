@@ -1,4 +1,4 @@
-﻿
+﻿@model Web.UI.Mvc.Core.ViewModel.UniversityVM
 @{
     ViewData["Title"] = "Index";
     ViewBag.universities = "active";
@@ -380,7 +380,12 @@
     <!-- /container -->
 
 </main>
-
+@foreach (var item in Model.universities)
+{
+    <a>
+        @item.ArName
+    </a>
+}
 @section _pageScripts{
 
     <!-- SPECIFIC SCRIPTS -->
