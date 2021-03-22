@@ -12,5 +12,10 @@ namespace Web.UI.Mvc.Core.Controllers
         {
             return View();
         }
+        public IActionResult Single()
+        {
+            return View();
+        }
+
     }
 }
