@@ -19,6 +19,7 @@ namespace Web.UI.Mvc.Core.Controllers
         {
             UniversityVM data = new UniversityVM();
             data.universities= await _universtyService.GetAllAsync();
+
             return View(data);
         }
         public IActionResult Single()
