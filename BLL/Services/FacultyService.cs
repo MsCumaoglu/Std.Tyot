@@ -1,6 +1,8 @@
 ﻿using Core.Interfaces;
 using Core.Interfaces.IServices;
 using Core.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace BLL.Services
 {
@@ -8,6 +10,11 @@ namespace BLL.Services
     {
         public FacultyService(IUnitOfWork unitOfWork, IRepository<Faculty> repository) : base(unitOfWork, repository)
         {
+        }
+
+        public async Task<IEnumerable<Faculty>> GetFacultiesByUnversityIdAsync(int id)
+        {
+            return await Where(x=>x.UniversityId==id);
         }
 
         public Faculty isActiveFalse(Faculty _entity)

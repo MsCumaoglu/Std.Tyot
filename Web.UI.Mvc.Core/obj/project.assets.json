@@ -9070,14 +9070,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj"
+            "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj"
+            "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj"
             },
-            "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj": {
-              "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj"
+            "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj": {
+              "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj"
             }
           }
         }

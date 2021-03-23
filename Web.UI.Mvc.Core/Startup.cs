@@ -44,6 +44,8 @@ namespace Web.UI.Mvc.Core
             services.AddScoped(typeof(IService<>), typeof(Service<>));
             services.AddScoped(typeof(IExamService), typeof(ExamService));
             services.AddScoped(typeof(IUniverstyService), typeof(UniversityService));
+            services.AddScoped(typeof(IFacultyService), typeof(FacultyService));
+            services.AddScoped(typeof(ICityService), typeof(CityService));
 
 
 

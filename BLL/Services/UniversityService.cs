@@ -21,5 +21,10 @@ namespace BLL.Services
             _entity.IsActive = true;
             return Update(_entity);
         }
+
     }
+
+    
+    
+
 }

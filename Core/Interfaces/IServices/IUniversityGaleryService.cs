@@ -8,4 +8,5 @@ namespace Core.Interfaces.IServices
         UniversityGalery isActiveTrue(UniversityGalery _model);
         UniversityGalery isActiveFalse(UniversityGalery _model);
     }
+
 }

@@ -11,20 +11,28 @@ namespace Web.UI.Mvc.Core.Controllers
     public class UniversitiesController : Controller
     {
         private readonly IUniverstyService _universtyService;
-        public UniversitiesController(IUniverstyService universtyService)
+        private readonly IFacultyService _facultyService;
+        private readonly ICityService _cityService;
+        public UniversitiesController(IUniverstyService universtyService, ICityService cityService,IFacultyService facultyService)
         {
             _universtyService = universtyService;
+            _cityService = cityService;
+            _facultyService = facultyService;
         }
         public async Task<IActionResult> Index()
         {
             UniversityVM data = new UniversityVM();
+            data.cities = await _cityService.GetAllAsync();
             data.universities= await _universtyService.GetAllAsync();
 
             return View(data);
         }
-        public IActionResult Single()
+        public async Task<IActionResult> Single(int id)
         {
-            return View();
+            UniversityVM data = new UniversityVM();
+            data.university = await _universtyService.GetByIdAsync(id);
+            data.faculties = await _facultyService.GetFacultiesByUnversityIdAsync(id);
+            return View(data);
         }
 
     }
