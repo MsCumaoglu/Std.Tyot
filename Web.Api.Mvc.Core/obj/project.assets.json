@@ -5930,26 +5930,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\syabd\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Misso\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Web.Api.Mvc.Core\\Web.Api.Mvc.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Web.Api.Mvc.Core\\Web.Api.Mvc.Core.csproj",
       "projectName": "Web.Api.Mvc.Core",
-      "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Web.Api.Mvc.Core\\Web.Api.Mvc.Core.csproj",
-      "packagesPath": "C:\\Users\\syabd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Web.Api.Mvc.Core\\obj\\",
+      "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Web.Api.Mvc.Core\\Web.Api.Mvc.Core.csproj",
+      "packagesPath": "C:\\Users\\Misso\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Web.Api.Mvc.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "D:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\syabd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Misso\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5964,14 +5961,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj"
+            "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj"
+            "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj"
             },
-            "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj": {
-              "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj"
+            "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj": {
+              "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj"
             }
           }
         }
@@ -6037,7 +6034,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

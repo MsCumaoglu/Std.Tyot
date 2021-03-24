@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.UI.Mvc.Core", "Web.UI.M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{FCF0ED3C-65AA-41D0-AB75-224CEF8FD9AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal", "Dal\Dal.csproj", "{6BAAED8A-432B-4F32-8E29-D198D014BB18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dal", "Dal\Dal.csproj", "{6BAAED8A-432B-4F32-8E29-D198D014BB18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Api.Mvc.Core", "Web.Api.Mvc.Core\Web.Api.Mvc.Core.csproj", "{BE53178A-0ABC-4297-9CDB-B6FE6F7A3E94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.Api.Mvc.Core", "Web.Api.Mvc.Core\Web.Api.Mvc.Core.csproj", "{BE53178A-0ABC-4297-9CDB-B6FE6F7A3E94}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{5B40A527-C619-4D08-B604-A61C845FF3FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCPMvcCore", "WebCPMvcCore\WebCPMvcCore.csproj", "{0CC1B4F7-AAF5-48EC-9693-6DA2FF18AB4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{5B40A527-C619-4D08-B604-A61C845FF3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B40A527-C619-4D08-B604-A61C845FF3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B40A527-C619-4D08-B604-A61C845FF3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC1B4F7-AAF5-48EC-9693-6DA2FF18AB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC1B4F7-AAF5-48EC-9693-6DA2FF18AB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC1B4F7-AAF5-48EC-9693-6DA2FF18AB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC1B4F7-AAF5-48EC-9693-6DA2FF18AB4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3F49FDCD-BB04-4F72-BD96-5D878DB8C08A} = {E25B5564-2486-4A60-86FB-DDD4065D55DE}
 		{BE53178A-0ABC-4297-9CDB-B6FE6F7A3E94} = {E25B5564-2486-4A60-86FB-DDD4065D55DE}
+		{0CC1B4F7-AAF5-48EC-9693-6DA2FF18AB4E} = {E25B5564-2486-4A60-86FB-DDD4065D55DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DDFDD1B-F8AB-4C8F-A8F5-1547D68C1DA2}

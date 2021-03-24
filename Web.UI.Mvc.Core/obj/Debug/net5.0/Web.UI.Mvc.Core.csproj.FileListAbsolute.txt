@@ -329,3 +329,4 @@ C:\Users\syabd\Documents\GitHub\Std.Tyot\Web.UI.Mvc.Core\bin\Debug\net5.0\BLL.pd
 C:\Users\syabd\Documents\GitHub\Std.Tyot\Web.UI.Mvc.Core\bin\Debug\net5.0\Core.pdb
 C:\Users\syabd\Documents\GitHub\Std.Tyot\Web.UI.Mvc.Core\bin\Debug\net5.0\Dal.pdb
 C:\Users\syabd\Documents\GitHub\Std.Tyot\Web.UI.Mvc.Core\obj\Debug\net5.0\Razor\Views\Blog\Single.cshtml.g.cs
+C:\Users\Misso\Documents\GitHub\Std.Tyot\Web.UI.Mvc.Core\obj\Debug\net5.0\Razor\Views\Blog\Single.cshtml.g.cs
