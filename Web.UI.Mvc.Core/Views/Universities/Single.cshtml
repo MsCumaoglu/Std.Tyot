@@ -11,23 +11,37 @@
 
 }
 <main>
-    <div class="top_banner">
-        <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.3)">
-            <div class="container" dir="rtl">
-                <div class="breadcrumbs">
-                    <ul dir="rtl">
-                        <li><a href="@Url.Action("Index","Home")">الرئيسية</a></li>
-                        <li><a href="@Url.Action("Index")">الجامعات</a></li>
-                        <li>@Model.university.ArName</li>
-                    </ul>
+    <div class="top_banner ">
+        <div class="row">
+            <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.3)">
+                <div class="la-pull-left col-6" dir="ltr">
+                    <div>
+                        @if (string.IsNullOrEmpty(Model.university.Logo))
+                        {
+                            <img class="img-thumbnail lazy" style="max-width: 200px" src="~/img/no.png" alt="">
+                        }
+                        else
+                        {
+                            <img class="img-thumbnail lazy" style="max-width: 200px" src="~/img/universities/@Model.university.Id/@Model.university.Logo" alt="">
+                        }
+                    </div>
                 </div>
-                <h1>@Model.university.ArName @Model.university.OriganName</h1>
-                @*<h3>@Model.university.City.Name</h3>*@
+                <div class="container col-6" dir="">
+                    <div class="breadcrumbs">
+                        <ul dir="rtl">
+                            <li><a href="@Url.Action("Index", "Home")">الرئيسية</a></li>
+                            <li><a href="@Url.Action("Index")">الجامعات</a></li>
+                            <li>@Model.university.ArName</li>
+                        </ul>
+                    </div>
+                    <h1>@Model.university.OriganName @Model.university.ArName</h1>
+                    @*<h3>@Model.university.City.Name</h3>*@
+                </div>
             </div>
         </div>
         @if (string.IsNullOrEmpty(Model.university.Logo))
         {
-            <img class="img-thumbnail mt-4 lazy" style="max-width:300px" src="~/img/bg_cat_shoes.jpg" alt="">
+            <img class="img-thumbnail mt-4 lazy" style="max-width: 300px" src="~/img/bg_cat_shoes.jpg" alt="">
         }
         else
         {
@@ -47,19 +61,19 @@
                                     <div style="background-image: url(../../wwwroot/img/@item.University.Id/@item.University.UniversityGalery.li);" class="item-box"></div>
                                 }*@
                             <div class="item-box">
-                                <img style="width:100%" src="~/img/universities/1/gallery/Firat1.jpg" />
+                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat1.jpg" />
                             </div>
                             <div class="item-box">
-                                <img style="width:100%" src="~/img/universities/1/gallery/Firat2.jpg" />
+                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat2.jpg" />
                             </div>
                             <div class="item-box">
-                                <img style="width:100%" src="~/img/universities/1/gallery/Firat3.jpg" />
+                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat3.jpg" />
                             </div>
                             <div class="item-box">
-                                <img style="width:100%" src="~/img/universities/1/gallery/Firat4.jpg" />
+                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat4.jpg" />
                             </div>
                             <div class="item-box">
-                                <img style="width:100%" src="~/img/universities/1/gallery/Firat5.jpg" />
+                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat5.jpg" />
                             </div>
 
                         </div>
@@ -69,19 +83,19 @@
                     <div class="slider-two">
                         <div class="owl-carousel owl-theme thumbs">
                             <div class="item active">
-                                <img style="width:100%" src="~/img/universities/1/gallery/Firat1.jpg" />
+                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat1.jpg" />
                             </div>
                             <div class="item">
-                                <img style="width:100%" src="~/img/universities/1/gallery/Firat2.jpg" />
+                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat2.jpg" />
                             </div>
                             <div class="item">
-                                <img style="width:100%" src="~/img/universities/1/gallery/Firat3.jpg" />
+                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat3.jpg" />
                             </div>
                             <div class="item">
-                                <img style="width:100%" src="~/img/universities/1/gallery/Firat4.jpg" />
+                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat4.jpg" />
                             </div>
                             <div class="item">
-                                <img style="width:100%" src="~/img/universities/1/gallery/Firat5.jpg" />
+                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat5.jpg" />
                             </div>
                         </div>
                         <div class="left-t nonl-t"></div>
@@ -90,23 +104,44 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="prod_info" dir="rtl">
-                    <div class="row">
-                        <div>
-                            <figure>
-                                @if (string.IsNullOrEmpty(Model.university.Logo))
-                                {
-                                    <img class="img-thumbnail mt-4 lazy" style="max-width:300px" src="~/img/no.png" alt="">
-                                }
-                                else
-                                {
-                                    <img class="img-thumbnail mt-4 lazy" style="max-width:300px" src="~/img/universities/@Model.university.Id/@Model.university.Logo" alt="">
-                                }
-                            </figure>
+                <div class="card-body">
+                    <div class="row justify-content-between" dir="rtl">
+                        <div class="">
+                            <h3>وصف الجامعة</h3>
+                            <p>@Model.university.About</p>
+                        </div>
+                        <div class="row" style="width: 75%; margin-top: 50px">
+                            <div class="table-responsive">
+                                <table class="table table-sm table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>تاريخ التأسيس</strong></td>
+                                            <td>@Model.university.FoundYear</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>الترتيب العالمي</strong></td>
+                                            <td>@Model.university.GlobalPlace</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>الترتيب المحلي</strong></td>
+                                            <td>@Model.university.LocalPlace</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>عدد الطلاب الاجمالي</strong></td>
+                                            <td>@Model.university.NumberOfStudent</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>عدد الطلاب الاجانب</strong></td>
+                                            <td>@Model.university.NumberOfReStudent</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /table-responsive -->
                         </div>
                     </div>
                 </div>
-                <!-- /prod_info -->
+                
             </div>
         </div>
         <!-- /row -->
@@ -137,43 +172,7 @@
                         </h5>
                     </div>
                     <div id="collapse-A" class="collapse" role="tabpanel" aria-labelledby="heading-A">
-                        <div class="card-body">
-                            <div class="row justify-content-between" dir="rtl">
-                                <div class="col-lg-6">
-                                    <h3>وصف الجامعة</h3>
-                                    <p>@Model.university.About</p>
-                                </div>
-                                <div class="col-lg-5">
-                                    <div class="table-responsive">
-                                        <table class="table table-sm table-striped">
-                                            <tbody>
-                                                <tr>
-                                                    <td><strong>تاريخ التأسيس</strong></td>
-                                                    <td>@Model.university.FoundYear</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>الترتيب العالمي</strong></td>
-                                                    <td>@Model.university.GlobalPlace</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>الترتيب المحلي</strong></td>
-                                                    <td>@Model.university.LocalPlace</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>عدد الطلاب الاجمالي</strong></td>
-                                                    <td>@Model.university.NumberOfStudent</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>عدد الطلاب الاجانب</strong></td>
-                                                    <td>@Model.university.NumberOfReStudent</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!-- /table-responsive -->
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <!-- /TAB A -->
@@ -204,7 +203,7 @@
                                 </table>
                             </div>
                             <div class="col-6">
-                                <iframe src="@Model.university.Map" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                <iframe src="@Model.university.Map" width="600" height="300" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                         </div>
                         <!-- /card-body -->

@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj": {}
+    "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj": {
+    "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\Misso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\syabd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Misso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\syabd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,11 +34,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj"
+              "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj"
               },
-              "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj": {
-                "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj"
+              "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj": {
+                "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj"
               }
             }
           }
@@ -60,29 +62,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj": {
+    "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Misso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\obj\\",
+        "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\syabd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Misso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\syabd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -142,29 +152,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj": {
+    "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj",
+        "projectUniqueName": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj",
-        "packagesPath": "C:\\Users\\Misso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\obj\\",
+        "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj",
+        "packagesPath": "C:\\Users\\syabd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Misso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\syabd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -179,8 +197,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj"
+              "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\syabd\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj"
               }
             }
           }
@@ -214,12 +232,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
         }
       }
     }
