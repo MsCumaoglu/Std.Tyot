@@ -1,30 +1,31 @@
-﻿using Core.Interfaces;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Core.Interfaces;
 using Core.Interfaces.IServices;
 using Core.Models;
 
 namespace BLL.Services
 {
-    public class UniversityService : Service<University>, IUniverstyService
+    public class UniversityService : Service<University>, IUniversityService
     {
         public UniversityService(IUnitOfWork unitOfWork, IRepository<University> repository) : base(unitOfWork, repository)
         {
         }
 
-        public University isActiveFalse(University _entity)
+        public University IsActiveFalse(University entity)
         {
-            _entity.IsActive = false;
-            return Update(_entity);
+            entity.IsActive = false;
+            return Update(entity);
         }
 
-        public University isActiveTrue(University _entity)
+        public University IsActiveTrue(University entity)
         {
-            _entity.IsActive = true;
-            return Update(_entity);
+            entity.IsActive = true;
+            return Update(entity);
         }
-
     }
 
-    
-    
+
+
 
 }

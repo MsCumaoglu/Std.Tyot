@@ -15,6 +15,7 @@ namespace Core.Models
         public int Id { get; set; }
         public int? ArticalId { get; set; }
         public int? TagId { get; set; }
+        public bool? IsActive { get; set; }
 
         [ForeignKey(nameof(ArticalId))]
         [InverseProperty("ArticalTagMap")]

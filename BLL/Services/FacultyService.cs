@@ -12,21 +12,21 @@ namespace BLL.Services
         {
         }
 
-        public async Task<IEnumerable<Faculty>> GetFacultiesByUnversityIdAsync(int id)
+        public async Task<IEnumerable<Faculty>> GetFacultiesByUniversityIdAsync(int id)
         {
-            return await Where(x=>x.UniversityId==id);
+            return await Where(x=>x.UniversityId==id && x.IsActive==true);
         }
 
-        public Faculty isActiveFalse(Faculty _entity)
+        public Faculty IsActiveFalse(Faculty entity)
         {
-            _entity.IsActive = false;
-            return Update(_entity);
+            entity.IsActive = false;
+            return Update(entity);
         }
 
-        public Faculty isActiveTrue(Faculty _entity)
+        public Faculty IsActiveTrue(Faculty entity)
         {
-            _entity.IsActive = true;
-            return Update(_entity);
+            entity.IsActive = true;
+            return Update(entity);
         }
     }
 }

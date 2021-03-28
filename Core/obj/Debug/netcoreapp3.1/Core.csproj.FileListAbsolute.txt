@@ -22,3 +22,15 @@ C:\Users\syabd\Documents\GitHub\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.cspro
 C:\Users\syabd\Documents\GitHub\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\syabd\Documents\GitHub\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.pdb
 C:\Users\syabd\Documents\GitHub\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache
+D:\github\Std.Tyot\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+D:\github\Std.Tyot\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
+D:\github\Std.Tyot\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.dev.json
+D:\github\Std.Tyot\Core\bin\Debug\netcoreapp3.1\Core.dll
+D:\github\Std.Tyot\Core\bin\Debug\netcoreapp3.1\Core.pdb
+D:\github\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
+D:\github\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+D:\github\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+D:\github\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+D:\github\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.dll
+D:\github\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.pdb
+D:\github\Std.Tyot\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache

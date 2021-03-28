@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eAGaHz3eAhJM3HB0ufownxDSqXzjHAuc6yygDtUwAksxjd2HqBLNUkBZDCRCL4cDyEzLn8zAR5/secuQ/av+Jg==",
+  "dgSpecHash": "X0L0a5Xoe/L+66LLGbBQcbja8jlm4wRHE+t0dfK8wZDEZhX5jrbd81ERWGIr6wPpZ80NjZQaMBR7KTvz+nbZOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Web.Api.Mvc.Core\\Web.Api.Mvc.Core.csproj",
+  "projectFilePath": "D:\\github\\Std.Tyot\\Web.Api.Mvc.Core\\Web.Api.Mvc.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Misso\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Misso\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

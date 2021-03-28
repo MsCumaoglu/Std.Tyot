@@ -36,7 +36,7 @@ namespace Core.Models
         [Column(TypeName = "datetime")]
         public DateTime? CreatedDate { get; set; }
         [Column("isActive")]
-        public bool? IsActive { get; set; }
+        public bool? isActive { get; set; }
 
         [ForeignKey(nameof(DegreeId))]
         [InverseProperty(nameof(StudingDegree.College))]

@@ -20,6 +20,8 @@ namespace Core.Models
         [Column("isVideo")]
         public bool? IsVideo { get; set; }
         public int? UinversityId { get; set; }
+        public bool? IsActive { get; set; }
+
 
         [ForeignKey(nameof(UinversityId))]
         [InverseProperty(nameof(University.UniversityGalery))]

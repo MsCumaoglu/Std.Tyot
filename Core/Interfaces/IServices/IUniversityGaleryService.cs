@@ -1,12 +1,15 @@
-﻿using Core.Models;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Core.Models;
 
 namespace Core.Interfaces.IServices
 {
-    public interface IUniversityGaleryService : IService<UniversityGalery>
+    public interface IUniversityGalleryService : IService<UniversityGalery>
     {
         // burada Exam'e özel işlemler olursa yazılır (tanımlanır)
-        UniversityGalery isActiveTrue(UniversityGalery _model);
-        UniversityGalery isActiveFalse(UniversityGalery _model);
+        UniversityGalery IsActiveTrue(UniversityGalery model);
+        UniversityGalery IsActiveFalse(UniversityGalery model);
+        Task<IEnumerable<UniversityGalery>> GetImagesByUniversityIdAsync(int id);
     }
 
 }

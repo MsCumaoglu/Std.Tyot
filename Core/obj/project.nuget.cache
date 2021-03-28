@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hfquv3pRjkdlFhv+lxl8UD1ALz3COwEHwYGXiuP4KBy9N4fkY+Pk3s9l+rjJsra9dsaLbUgdpCsrbP/O5qxOaA==",
+  "dgSpecHash": "NSnvRVLbdbvG02X1Zr32YzstUlOr/xMz1ABS+V7M7ruZGqQnoGSvoFFVS9u40NIof1tipsJxIKSPT6s0wZBIjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj",
+  "projectFilePath": "D:\\github\\Std.Tyot\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Misso\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Misso\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

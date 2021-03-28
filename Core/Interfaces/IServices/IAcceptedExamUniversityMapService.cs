@@ -1,12 +1,16 @@
-﻿using Core.Models;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Core.Models;
 
 namespace Core.Interfaces.IServices
 {
     public interface IAcceptedExamUniversityMapService : IService<AcceptedExamUniversityMap>
     {
         // burada Exam'e özel işlemler olursa yazılır (tanımlanır)
-        AcceptedExamUniversityMap isActiveTrue(AcceptedExamUniversityMap _model);
-        AcceptedExamUniversityMap isActiveFalse(AcceptedExamUniversityMap _model);
-        AcceptedExamUniversityMap isStartTrue(AcceptedExamUniversityMap _model);
-        AcceptedExamUniversityMap isStartFalse(AcceptedExamUniversityMap _model);
-    }    }
+        AcceptedExamUniversityMap IsActiveTrue(AcceptedExamUniversityMap model);
+        AcceptedExamUniversityMap isActiveFalse(AcceptedExamUniversityMap model);
+        // üniversitenin kabul ettiği sinavlar
+        Task<IEnumerable<AcceptedExamUniversityMap>> GetExamAcceptedAsync(int universityId);
+
+    }
+}

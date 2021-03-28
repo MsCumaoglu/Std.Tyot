@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fx14FHxUmtoTM7YY51d7EB1aC5BrY9I7yhpGChueyQRQ6lj3OMrHQcVFs4j+u/30XiuDNi+0l7nAGmFj+bme4g==",
+  "dgSpecHash": "532sYn+U9W4J70t5wNVsn9xc/ybp19/+Ios2ZkBME/XLBrFrlUSIZv7rFI4FEhubKdYNDKbMz3a1mLCHlmWVWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj",
+  "projectFilePath": "D:\\github\\Std.Tyot\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Misso\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Misso\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -6065,19 +6065,19 @@
   },
   "packageFolders": {
     "C:\\Users\\Misso\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj",
+      "projectUniqueName": "D:\\github\\Std.Tyot\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj",
+      "projectPath": "D:\\github\\Std.Tyot\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\Misso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\obj\\",
+      "outputPath": "D:\\github\\Std.Tyot\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Misso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6095,11 +6095,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj"
+            "D:\\github\\Std.Tyot\\Core\\Core.csproj": {
+              "projectPath": "D:\\github\\Std.Tyot\\Core\\Core.csproj"
             },
-            "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj": {
-              "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj"
+            "D:\\github\\Std.Tyot\\Dal\\Dal.csproj": {
+              "projectPath": "D:\\github\\Std.Tyot\\Dal\\Dal.csproj"
             }
           }
         }
@@ -6128,7 +6128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

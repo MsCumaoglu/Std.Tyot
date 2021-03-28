@@ -1,13 +1,15 @@
-﻿using Core.Models;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Core.Models;
 
 namespace Core.Interfaces.IServices
 {
     public interface ICollegeService : IService<College>
     {
-        // burada Exam'e özel işlemler olursa yazılır (tanımlanır)
-        Exam isActiveTrue(College _college);
-        Exam isActiveFalse(College _college);
-        Exam isStartTrue(College _college);
-        Exam isStartFalse(College _college);
+        // burada Bolümler'e özel işlemler olursa yazılır (tanımlanır)
+        College IsActiveTrue(College _college);
+        College IsActiveFalse(College _college);
+        Task<IEnumerable<College>> GetCollegesByFacultyIdAsync(int id);
+
     }
 }

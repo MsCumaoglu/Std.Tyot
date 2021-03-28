@@ -9,20 +9,5 @@ namespace BLL.Services
         public CityService(IUnitOfWork unitOfWork, IRepository<City> repository) : base(unitOfWork, repository)
         {
         }
-
-        //public City isActiveFalse(City _entity)
-        //{
-        //    _entity.IsActive = false;
-        //    return Update(_entity);
-        //}
-        //public City isActiveTrue(City _entity)
-        //{
-        //    _entity.IsActive = true;
-        //    return Update(_entity);
-        //}
     }
-
-    
-    
-
 }

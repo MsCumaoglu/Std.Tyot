@@ -13,28 +13,28 @@ namespace BLL.Services
         {
         }
 
-        public Exam isActiveFalse(Exam _exam)
+        public Exam isActiveFalse(Exam exam)
         {
-            _exam.IsActive = false;
-            return Update(_exam);
+            exam.IsActive = false;
+            return Update(exam);
         }
 
-        public Exam isActiveTrue(Exam _exam)
+        public Exam isActiveTrue(Exam exam)
         {
-            _exam.IsActive = true;
-            return Update(_exam);
+            exam.IsActive = true;
+            return Update(exam);
         }
 
-        public Exam isStartFalse(Exam _exam)
+        public Exam isStartFalse(Exam exam)
         {
-            _exam.IsStart = false;
-            return Update(_exam);
+            exam.IsStart = false;
+            return Update(exam);
         }
 
-        public Exam isStartTrue(Exam _exam)
+        public Exam isStartTrue(Exam exam)
         {
-            _exam.IsStart = true;
-            return Update(_exam);
+            exam.IsStart = true;
+            return Update(exam);
         }
     }
 }

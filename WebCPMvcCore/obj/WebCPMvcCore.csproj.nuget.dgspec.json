@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\WebCPMvcCore\\WebCPMvcCore.csproj": {}
+    "D:\\github\\Std.Tyot\\WebCPMvcCore\\WebCPMvcCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\WebCPMvcCore\\WebCPMvcCore.csproj": {
+    "D:\\github\\Std.Tyot\\WebCPMvcCore\\WebCPMvcCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\WebCPMvcCore\\WebCPMvcCore.csproj",
+        "projectUniqueName": "D:\\github\\Std.Tyot\\WebCPMvcCore\\WebCPMvcCore.csproj",
         "projectName": "WebCPMvcCore",
-        "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\WebCPMvcCore\\WebCPMvcCore.csproj",
+        "projectPath": "D:\\github\\Std.Tyot\\WebCPMvcCore\\WebCPMvcCore.csproj",
         "packagesPath": "C:\\Users\\Misso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\WebCPMvcCore\\obj\\",
+        "outputPath": "D:\\github\\Std.Tyot\\WebCPMvcCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Misso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

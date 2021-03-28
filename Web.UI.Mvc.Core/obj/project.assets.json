@@ -9037,19 +9037,19 @@
   },
   "packageFolders": {
     "C:\\Users\\Misso\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj",
+      "projectUniqueName": "D:\\github\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj",
       "projectName": "Web.UI.Mvc.Core",
-      "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj",
+      "projectPath": "D:\\github\\Std.Tyot\\Web.UI.Mvc.Core\\Web.UI.Mvc.Core.csproj",
       "packagesPath": "C:\\Users\\Misso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Web.UI.Mvc.Core\\obj\\",
+      "outputPath": "D:\\github\\Std.Tyot\\Web.UI.Mvc.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Misso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9067,14 +9067,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\BLL\\BLL.csproj"
+            "D:\\github\\Std.Tyot\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\github\\Std.Tyot\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Core\\Core.csproj"
+            "D:\\github\\Std.Tyot\\Core\\Core.csproj": {
+              "projectPath": "D:\\github\\Std.Tyot\\Core\\Core.csproj"
             },
-            "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj": {
-              "projectPath": "C:\\Users\\Misso\\Documents\\GitHub\\Std.Tyot\\Dal\\Dal.csproj"
+            "D:\\github\\Std.Tyot\\Dal\\Dal.csproj": {
+              "projectPath": "D:\\github\\Std.Tyot\\Dal\\Dal.csproj"
             }
           }
         }
@@ -9116,7 +9116,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

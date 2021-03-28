@@ -16,6 +16,7 @@ namespace Core.Models
         public int? UniversityId { get; set; }
         public int? AcceptedExamUniversityId { get; set; }
         public bool? Type { get; set; }
+        public bool? isActive { get; set; }
 
         [ForeignKey(nameof(AcceptedExamUniversityId))]
         [InverseProperty("AcceptedUniversityExamAcceptedExamUniversity")]

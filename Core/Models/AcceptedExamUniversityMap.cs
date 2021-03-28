@@ -15,6 +15,7 @@ namespace Core.Models
         public int Id { get; set; }
         public int? UniversityId { get; set; }
         public int? ExamId { get; set; }
+        public bool isActive { get; set; }
 
         [ForeignKey(nameof(ExamId))]
         [InverseProperty(nameof(AcceptedExam.AcceptedExamUniversityMap))]
