@@ -50,7 +50,7 @@ namespace Core.Models
         public virtual User User { get; set; }
         [InverseProperty("Artical")]
         public virtual ICollection<ArticalTagMap> ArticalTagMap { get; set; }
-        [InverseProperty("Artical")]
+        [InverseProperty("Article")]
         public virtual ICollection<Comment> Comment { get; set; }
     }
 }

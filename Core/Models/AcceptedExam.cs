@@ -20,8 +20,6 @@ namespace Core.Models
         public int Id { get; set; }
         [StringLength(100)]
         public string Name { get; set; }
-        [StringLength(4)]
-        public string YearAccepte { get; set; }
 
         [InverseProperty("Exam")]
         public virtual ICollection<AcceptedExamUniversityMap> AcceptedExamUniversityMap { get; set; }

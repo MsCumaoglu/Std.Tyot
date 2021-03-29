@@ -15,7 +15,13 @@ namespace Core.Models
         public int Id { get; set; }
         public int? NewsId { get; set; }
         public int? TagId { get; set; }
+        [Column("isActive")]
         public bool? IsActive { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime? UpadatDate { get; set; }
+        public string Description { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime? CreatedDate { get; set; }
 
         [ForeignKey(nameof(NewsId))]
         [InverseProperty("NewsTagMap")]

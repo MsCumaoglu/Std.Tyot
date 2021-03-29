@@ -10,16 +10,5 @@ namespace BLL.Services
         {
         }
 
-
-        public AcceptedExam isActiveTrue(AcceptedExam _model)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public AcceptedExam isActiveFalse(AcceptedExam _model)
-        {
-            throw new System.NotImplementedException();
-        }
-
     }
 }

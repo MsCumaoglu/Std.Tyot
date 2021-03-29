@@ -19,6 +19,7 @@ namespace Core.Models
             ExamUniversity = new HashSet<ExamUniversity>();
             Faculty = new HashSet<Faculty>();
             LnaguageUniversityMap = new HashSet<LnaguageUniversityMap>();
+            UniversityComment = new HashSet<UniversityComment>();
             UniversityGalery = new HashSet<UniversityGalery>();
         }
 
@@ -45,17 +46,17 @@ namespace Core.Models
         public string Banner { get; set; }
         [StringLength(50)]
         public string Mail { get; set; }
-        [StringLength(15)]
+        [StringLength(20)]
         public string Phone { get; set; }
         public bool? Type { get; set; }
         public int? CityId { get; set; }
         [Column(TypeName = "datetime")]
-        public DateTime? UpadatDate { get; set; }
-        public string Description { get; set; }
-        [Column(TypeName = "datetime")]
         public DateTime? CreatedDate { get; set; }
         [Column("isActive")]
         public bool? IsActive { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime? UpadatDate { get; set; }
+        public string Description { get; set; }
 
         [ForeignKey(nameof(CityId))]
         [InverseProperty("University")]
@@ -72,6 +73,8 @@ namespace Core.Models
         public virtual ICollection<Faculty> Faculty { get; set; }
         [InverseProperty("Univ")]
         public virtual ICollection<LnaguageUniversityMap> LnaguageUniversityMap { get; set; }
+        [InverseProperty("University")]
+        public virtual ICollection<UniversityComment> UniversityComment { get; set; }
         [InverseProperty("Uinversity")]
         public virtual ICollection<UniversityGalery> UniversityGalery { get; set; }
     }

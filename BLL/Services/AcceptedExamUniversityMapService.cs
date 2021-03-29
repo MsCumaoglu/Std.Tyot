@@ -26,7 +26,7 @@ namespace BLL.Services
 
         public async Task<IEnumerable<AcceptedExamUniversityMap>> GetExamAcceptedAsync(int universityId)
         {
-            return await Where(x => x.UniversityId == universityId && x.isActive);
+            return await Where(x => x.UniversityId == universityId && x.IsActive==true);
         }
     }
 }

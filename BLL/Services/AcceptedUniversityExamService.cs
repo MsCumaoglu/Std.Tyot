@@ -25,12 +25,12 @@ namespace BLL.Services
         // üniversitenin kabul ettiği sınavlar
         public async Task<IEnumerable<AcceptedUniversityExam>> GetAcceptedExamsByUniversityIdAsync(int universityId)
         {
-            return await Where(x => x.UniversityId == universityId && x.isActive == true);
+            return await Where(x => x.UniversityId == universityId && x.IsActive == true);
         }
         // üniversitenin sinavını kabul eden üniversiteler
         public async Task<IEnumerable<AcceptedUniversityExam>> GetExamUniversityWhereAcceptedAsync(int universityId)
         {
-            return await Where(x => x.AcceptedExamUniversityId == universityId && x.isActive==true);
+            return await Where(x => x.AcceptedExamUniversityId == universityId && x.IsActive==true);
         }
     }
 }

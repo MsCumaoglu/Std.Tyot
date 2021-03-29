@@ -23,7 +23,7 @@ namespace Core.Models
         [StringLength(50)]
         public string Link { get; set; }
         public string About { get; set; }
-        [StringLength(15)]
+        [StringLength(20)]
         public string Phone { get; set; }
         [StringLength(50)]
         public string Mail { get; set; }
@@ -36,7 +36,7 @@ namespace Core.Models
         [Column(TypeName = "datetime")]
         public DateTime? CreatedDate { get; set; }
         [Column("isActive")]
-        public bool? isActive { get; set; }
+        public bool? IsActive { get; set; }
 
         [ForeignKey(nameof(DegreeId))]
         [InverseProperty(nameof(StudingDegree.College))]

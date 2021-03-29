@@ -15,7 +15,7 @@ namespace Core.Models
         public int Id { get; set; }
         public string CommentContenet { get; set; }
         public int? NumberLike { get; set; }
-        public int? ArticalId { get; set; }
+        public int? ArticleId { get; set; }
         public int? UserId { get; set; }
         public string Description { get; set; }
         [Column(TypeName = "datetime")]
@@ -25,9 +25,9 @@ namespace Core.Models
         [Column(TypeName = "datetime")]
         public DateTime? UpadatDate { get; set; }
 
-        [ForeignKey(nameof(ArticalId))]
-        [InverseProperty("Comment")]
-        public virtual Artical Artical { get; set; }
+        [ForeignKey(nameof(ArticleId))]
+        [InverseProperty(nameof(Artical.Comment))]
+        public virtual Artical Article { get; set; }
         [ForeignKey(nameof(UserId))]
         [InverseProperty("Comment")]
         public virtual User User { get; set; }
