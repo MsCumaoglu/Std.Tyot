@@ -24,6 +24,9 @@
     <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\style.scssc" />
     <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\_mixin.scssc" />
     <None Include="allaia_v.1.0\html\sass\.sass-cache\9863ecefae601619269a32b4941e7b84b0edf77b\_variables.scssc" />
+    <None Include="wwwroot\image\banner.psd" />
+    <None Include="wwwroot\image\gallery.psd" />
+    <None Include="wwwroot\image\logo.psd" />
   </ItemGroup>
 
   <ItemGroup>

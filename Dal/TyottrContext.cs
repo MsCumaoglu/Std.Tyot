@@ -152,7 +152,7 @@ namespace Dal
 
             modelBuilder.Entity<College>(entity =>
             {
-                entity.Property(e => e.IsActive).HasDefaultValueSql("((1))");
+                entity.Property(e => e.isActive).HasDefaultValueSql("((1))");
 
                 entity.HasOne(d => d.Degree)
                     .WithMany(p => p.College)

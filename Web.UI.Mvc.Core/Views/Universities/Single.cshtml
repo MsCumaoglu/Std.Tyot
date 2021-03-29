@@ -8,7 +8,25 @@
 @section _pageStyle{
     <!-- SPECIFIC CSS -->
     <link href="~/css/product_page.css" rel="stylesheet">
+    <style>
+        .faculty {
+            background: #f8f8f8;
+            height: 50px
+        }
 
+            .faculty a {
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                color: black;
+                line-height: 50px;
+                font-size: 18px;
+            }
+
+            .faculty:hover {
+                background: #eaeaea;
+            }
+    </style>
 }
 <main>
     <div class="top_banner ">
@@ -22,7 +40,7 @@
                         }
                         else
                         {
-                            <img class="img-thumbnail lazy" style="max-width: 200px" src="~/img/universities/@Model.university.Id/@Model.university.Logo" alt="">
+                            <img class="img-thumbnail lazy" style="max-width: 200px" src="~/image/university/@Model.university.Id/@Model.university.Logo" alt="">
                         }
                     </div>
                 </div>
@@ -34,7 +52,8 @@
                             <li>@Model.university.ArName</li>
                         </ul>
                     </div>
-                    <h1>@Model.university.OriganName @Model.university.ArName</h1>
+                    <h1> @Model.university.ArName</h1>
+                    <h1>@Model.university.OriganName </h1>
                     @*<h3>@Model.university.City.Name</h3>*@
                 </div>
             </div>
@@ -45,7 +64,7 @@
         }
         else
         {
-            <img class="img-thumbnail mt-4 lazy" src="~/img/universities/@Model.university.Id/@Model.university.Banner" alt="">
+            <img class="img-thumbnail mt-4 lazy" src="~/image/university/@Model.university.Id/banner.png" alt="">
         }
     </div>
     <!-- /top_banner -->
@@ -60,43 +79,24 @@
                                 {
                                     <div style="background-image: url(../../wwwroot/img/@item.University.Id/@item.University.UniversityGalery.li);" class="item-box"></div>
                                 }*@
-                            <div class="item-box">
-                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat1.jpg" />
-                            </div>
-                            <div class="item-box">
-                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat2.jpg" />
-                            </div>
-                            <div class="item-box">
-                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat3.jpg" />
-                            </div>
-                            <div class="item-box">
-                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat4.jpg" />
-                            </div>
-                            <div class="item-box">
-                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat5.jpg" />
-                            </div>
-
+                            @foreach (var item in Model.universityGallery)
+                            {
+                                <div class="item-box">
+                                    <img style="width: 100%" src="~/image/university/@Model.university.Id/Gallery/@item.Link" />
+                                </div>
+                            }
                         </div>
                         <div class="left nonl"><i class="ti-angle-left"></i></div>
                         <div class="right"><i class="ti-angle-right"></i></div>
                     </div>
                     <div class="slider-two">
                         <div class="owl-carousel owl-theme thumbs">
-                            <div class="item active">
-                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat1.jpg" />
-                            </div>
-                            <div class="item">
-                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat2.jpg" />
-                            </div>
-                            <div class="item">
-                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat3.jpg" />
-                            </div>
-                            <div class="item">
-                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat4.jpg" />
-                            </div>
-                            <div class="item">
-                                <img style="width: 100%" src="~/img/universities/1/gallery/Firat5.jpg" />
-                            </div>
+                            @foreach (var item in Model.universityGallery)
+                            {
+                                <div class="item active">
+                                    <img style="width: 100%" src="~/image/university/@Model.university.Id/Gallery/@item.Link" />
+                                </div>
+                            }
                         </div>
                         <div class="left-t nonl-t"></div>
                         <div class="right-t"></div>
@@ -110,7 +110,7 @@
                             <h3>وصف الجامعة</h3>
                             <p>@Model.university.About</p>
                         </div>
-                        <div class="row" style="width: 75%; margin-top: 50px">
+                        <div class="row" style="width: 100%; margin-top: 50px">
                             <div class="table-responsive">
                                 <table class="table table-sm table-striped">
                                     <tbody>
@@ -141,7 +141,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-- /row -->
@@ -151,7 +151,7 @@
         <div class="container" dir="rtl">
             <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item">
-                    <a id="tab-A" href="#pane-A" class="nav-link active" data-toggle="tab" role="tab">حول الجامعة</a>
+                    <a id="tab-A" href="#pane-A" class="nav-link active" data-toggle="tab" role="tab">الشؤون الأكاديمية</a>
                 </li>
                 <li class="nav-item">
                     <a id="tab-B" href="#pane-B" class="nav-link" data-toggle="tab" role="tab">معلومات التواصل</a>
@@ -167,12 +167,19 @@
                     <div class="card-header" role="tab" id="heading-A">
                         <h5 class="mb-0">
                             <a class="collapsed" data-toggle="collapse" href="#collapse-A" aria-expanded="false" aria-controls="collapse-A">
-                                الكلبات
+                                الشؤون الأكاديمية
                             </a>
                         </h5>
                     </div>
                     <div id="collapse-A" class="collapse" role="tabpanel" aria-labelledby="heading-A">
-                        
+                        <div dir="rtl" class="row" style="margin-top: -30px">
+                            @foreach (var item in Model.faculties)
+                            {
+                                <div class="col-md-2 col-sm-6 faculty">
+                                    <a href="@Url.Action("Faculty",new { Id=item.Id})" style="text-align: center">@item.Name</a>
+                                </div>
+                            }
+                        </div>
                     </div>
                 </div>
                 <!-- /TAB A -->
@@ -186,7 +193,7 @@
                     </div>
                     <div id="collapse-B" class="collapse" role="tabpanel" aria-labelledby="heading-B">
                         <div class="row" dir="rtl">
-                            <div class="col-6">
+                            <div class="col-md-6 col-sm-12">
                                 <table class="table" style='border-collapse: collapse;'>
                                     <tr>
                                         <td> <b>الموقع الالكتروني :</b></td>
@@ -194,16 +201,20 @@
                                     </tr>
                                     <tr>
                                         <td> <b>البريد الالكتروني :</b></td>
-                                        <td>@Model.university.Mail</td>
+                                        <td><a href="mailto:@Model.university.Mail">@Model.university.Mail</a></td>
                                     </tr>
                                     <tr>
                                         <td> <b>رقم الهاتف :</b></td>
-                                        <td>@Model.university.Phone</td>
+                                        <td><a href="tel:@Model.university.Phone">@Model.university.Phone</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
                                 </table>
                             </div>
-                            <div class="col-6">
-                                <iframe src="@Model.university.Map" width="600" height="300" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
+                            <div class="col-md-6 col-sm-12">
+                                <iframe src="@Model.university.Map" height="250" style="border: 0;width:100%" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                         </div>
                         <!-- /card-body -->
@@ -216,170 +227,6 @@
         <!-- /container -->
     </div>
     <!-- /tab_content_wrapper -->
-
-    <div id="toTop"></div><!-- Back to top button -->
-
-    <div class="top_panel">
-        <div class="container header_panel">
-            <a href="#0" class="btn_close_top_panel"><i class="ti-close"></i></a>
-            <label>1 product added to cart</label>
-        </div>
-        <!-- /header_panel -->
-        <div class="item">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
-                        <div class="item_panel">
-                            <figure>
-                                <img src="img/products/product_placeholder_square_small.jpg" data-src="img/products/shoes/1.jpg" class="lazy" alt="">
-                            </figure>
-                            <h4>1x Armor Air X Fear</h4>
-                            <div class="price_panel"><span class="new_price">$148.00</span><span class="percentage">-20%</span> <span class="old_price">$160.00</span></div>
-                        </div>
-                    </div>
-                    <div class="col-md-5 btn_panel">
-                        <a href="cart.html" class="btn_1 outline">View cart</a> <a href="checkout.html" class="btn_1">Checkout</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /item -->
-        <div class="container related">
-            <h4>Who bought this product also bought</h4>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="item_panel">
-                        <a href="#0">
-                            <figure>
-                                <img src="img/products/product_placeholder_square_small.jpg" data-src="img/products/shoes/2.jpg" alt="" class="lazy">
-                            </figure>
-                        </a>
-                        <a href="#0">
-                            <h5>Armor Okwahn II</h5>
-                        </a>
-                        <div class="price_panel"><span class="new_price">$90.00</span></div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="item_panel">
-                        <a href="#0">
-                            <figure>
-                                <img src="img/products/product_placeholder_square_small.jpg" data-src="img/products/shoes/3.jpg" alt="" class="lazy">
-                            </figure>
-                        </a>
-                        <a href="#0">
-                            <h5>Armor Air Wildwood ACG</h5>
-                        </a>
-                        <div class="price_panel"><span class="new_price">$75.00</span><span class="percentage">-20%</span> <span class="old_price">$155.00</span></div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="item_panel">
-                        <a href="#0">
-                            <figure>
-                                <img src="img/products/product_placeholder_square_small.jpg" data-src="img/products/shoes/4.jpg" alt="" class="lazy">
-                            </figure>
-                        </a>
-                        <a href="#0">
-                            <h5>Armor ACG React Terra</h5>
-                        </a>
-                        <div class="price_panel"><span class="new_price">$110.00</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /related -->
-    </div>
-    <!-- /add_cart_panel -->
-    <!-- Size modal -->
-    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="size-modal" id="size-modal" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Size guide</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="ti-close"></i>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet, et velit propriae invenire mea, ad nam alia intellegat. Aperiam mediocrem rationibus nec te. Tation persecuti accommodare pro te. Vis et augue legere, vel labitur habemus ocurreret ex.</p>
-                    <div class="table-responsive">
-                        <table class="table table-striped table-sm sizes">
-                            <tbody>
-                                <tr>
-                                    <th scope="row">US Sizes</th>
-                                    <td>6</td>
-                                    <td>6,5</td>
-                                    <td>7</td>
-                                    <td>7,5</td>
-                                    <td>8</td>
-                                    <td>8,5</td>
-                                    <td>9</td>
-                                    <td>9,5</td>
-                                    <td>10</td>
-                                    <td>10,5</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Euro Sizes</th>
-                                    <td>39</td>
-                                    <td>39</td>
-                                    <td>40</td>
-                                    <td>40-41</td>
-                                    <td>41</td>
-                                    <td>41-42</td>
-                                    <td>42</td>
-                                    <td>42-43</td>
-                                    <td>43</td>
-                                    <td>43-44</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">UK Sizes</th>
-                                    <td>5,5</td>
-                                    <td>6</td>
-                                    <td>6,5</td>
-                                    <td>7</td>
-                                    <td>7,5</td>
-                                    <td>8</td>
-                                    <td>8,5</td>
-                                    <td>9</td>
-                                    <td>9,5</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Inches</th>
-                                    <td>9.25"</td>
-                                    <td>9.5"</td>
-                                    <td>9.625"</td>
-                                    <td>9.75"</td>
-                                    <td>9.9375"</td>
-                                    <td>10.125"</td>
-                                    <td>10.25"</td>
-                                    <td>10.5"</td>
-                                    <td>10.625"</td>
-                                    <td>10.75"</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">CM</th>
-                                    <td>23,5</td>
-                                    <td>24,1</td>
-                                    <td>24,4</td>
-                                    <td>24,8</td>
-                                    <td>25,4</td>
-                                    <td>25,7</td>
-                                    <td>26</td>
-                                    <td>26,7</td>
-                                    <td>27</td>
-                                    <td>27,3</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <!-- /table -->
-                </div>
-            </div>
-        </div>
-    </div>
-
 
 </main>
 

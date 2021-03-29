@@ -1,0 +1,212 @@
+﻿@model Web.UI.Mvc.Core.ViewModel.FacultyVM
+@{
+    ViewData["Title"] = "Faculty";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section _pageStyle{
+    <!-- SPECIFIC CSS -->
+    <link href="~/css/product_page.css" rel="stylesheet">
+    <style>
+        .faculty {
+            background: #f8f8f8;
+            height: 50px
+        }
+
+            .faculty a {
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                color: black;
+                line-height: 50px;
+                font-size: 18px;
+            }
+
+            .faculty:hover {
+                background: #eaeaea;
+            }
+    </style>
+    <style>
+        #table.table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #table td, th {
+            border: 1px solid #dddddd;
+            text-align: right;
+            padding: 8px;
+        }
+
+        #table tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+}
+
+<main>
+    <div class="top_banner ">
+        <div class="row">
+            <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.3)">
+                <div class="la-pull-left col-6" dir="ltr">
+                    <div>
+                        @if (string.IsNullOrEmpty(Model.university.Logo))
+                        {
+                            <img class="img-thumbnail lazy" style="max-width: 200px" src="~/img/no.png" alt="">
+                        }
+                        else
+                        {
+                            <img class="img-thumbnail lazy" style="max-width: 200px" src="~/image/university/@Model.university.Id/@Model.university.Logo" alt="">
+                        }
+                    </div>
+                </div>
+                <div class="container col-6" dir="">
+                    <div class="breadcrumbs">
+                        <ul dir="rtl">
+                            <li><a href="@Url.Action("Index", "Home")">الرئيسية</a></li>
+                            <li><a href="@Url.Action("Index")">الجامعات</a></li>
+                            <li><a href="@Url.Action("Single",new { Id=@Model.university.Id})">@Model.university.ArName</a></li>
+                            <li>@Model.faculty.Name</li>
+                        </ul>
+                    </div>
+                    <h1>@Model.university.ArName-@Model.faculty.Name</h1>
+                    <h1>@Model.university.OriganName </h1>
+                    @*<h3>@Model.university.City.Name</h3>*@
+                </div>
+            </div>
+        </div>
+        @if (string.IsNullOrEmpty(Model.university.Logo))
+        {
+            <img class="img-thumbnail mt-4 lazy" style="max-width: 300px" src="~/img/bg_cat_shoes.jpg" alt="">
+        }
+        else
+        {
+            <img class="img-thumbnail mt-4 lazy" src="~/image/university/@Model.university.Id/banner.png" alt="">
+        }
+    </div>
+    <!-- /top_banner -->
+    <div class="container margin_30">
+        <div class="card-body">
+            <div class="justify-content-between" dir="rtl">
+                <div>
+                    <h3>وصف الكلية</h3>
+                    <p>@Model.faculty.About</p>
+                </div>
+                <div style="width: 100%; margin-top: 50px">
+                    <div class="table-responsive">
+                        <table id="table">
+                            <tr>
+                                <th style="width:25%;">الفرع</th>
+                                @*<th style="width: 20%;">وصف الفرع</th>*@
+                                <th style="width:15%;">الدرجة</th>
+                                <th style="width:10%;">سنوات الدراسة</th>
+                                <th style="width:20%;">الموقع الالكتروني</th>
+                                <th style="width:15%;">رقم الهاتف</th>
+                                <th style="width:25%;">البريد الالكتروني</th>
+                            </tr>
+                            @foreach (var item in Model.colleges)
+                            {
+                                <tr>
+                                    <td>@item.Name</td>
+                                    @*<td>@item.About</td>*@
+                                    <td>@Model.StudingDegrees.Single(x=>x.Id== item.DegreeId).Name</td>
+                                    <td>@item.StudingYear</td>
+                                    <td><a href="@item.Link">@item.Link</a></td>
+                                    <td><a href="tel:@item.Phone">@item.Phone</a></td>
+                                    <td><a href="mailto:@item.Mail">@item.Mail</a></td>
+                                </tr>
+                            }
+                        </table>
+                    </div>
+                    <!-- /table-responsive -->
+                </div>
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+    <div class="tabs_product">
+        <div class="container" dir="rtl">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a id="tab-A" href="#pane-A" class="nav-link active" data-toggle="tab" role="tab">الشؤون الأكاديمية</a>
+                </li>
+                <li class="nav-item">
+                    <a id="tab-B" href="#pane-B" class="nav-link" data-toggle="tab" role="tab">معلومات التواصل</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /tabs_product -->
+    <div class="tab_content_wrapper">
+        <div class="container">
+            <div class="tab-content" role="tablist">
+                <div id="pane-A" class="card tab-pane fade active show" role="tabpanel" aria-labelledby="tab-A">
+                    <div class="card-header" role="tab" id="heading-A">
+                        <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" href="#collapse-A" aria-expanded="false" aria-controls="collapse-A">
+                                الشؤون الأكاديمية
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapse-A" class="collapse" role="tabpanel" aria-labelledby="heading-A">
+
+
+                    </div>
+                </div>
+                <!-- /TAB A -->
+                <div id="pane-B" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-B">
+                    <div class="card-header" role="tab" id="heading-B">
+                        <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" href="#collapse-B" aria-expanded="false" aria-controls="collapse-B">
+                                معلومات التواصل
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapse-B" class="collapse" role="tabpanel" aria-labelledby="heading-B">
+                        <div class="row" dir="rtl">
+                            <div class="col-md-6 col-sm-12">
+                                <table class="table" style='border-collapse: collapse;'>
+                                    <tr>
+                                        <td> <b>الموقع الالكتروني :</b></td>
+                                        <td><a href="@Model.faculty.Link">@Model.faculty.Link</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td> <b>البريد الالكتروني :</b></td>
+                                        <td><a href="mailto:@Model.faculty.Mail">@Model.faculty.Mail</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td> <b>رقم الهاتف :</b></td>
+                                        <td><a href="tel:@Model.faculty.Phone">@Model.faculty.Phone</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <iframe src="@Model.university.Map" height="250" style="border: 0;width:100%" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                        <!-- /card-body -->
+                    </div>
+                </div>
+                <!-- /tab B -->
+            </div>
+            <!-- /tab-content -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /tab_content_wrapper -->
+
+</main>
+
+
+
+
+@section _pageScripts{
+    <!-- SPECIFIC SCRIPTS -->
+    <script src="~/js/carousel_with_thumbs.js"></script>
+
+}

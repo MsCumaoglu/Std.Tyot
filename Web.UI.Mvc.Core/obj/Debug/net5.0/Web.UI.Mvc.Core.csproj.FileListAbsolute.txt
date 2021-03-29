@@ -496,3 +496,4 @@ D:\github\Std.Tyot\Web.UI.Mvc.Core\obj\Debug\net5.0\Web.UI.Mvc.Core.dll
 D:\github\Std.Tyot\Web.UI.Mvc.Core\obj\Debug\net5.0\ref\Web.UI.Mvc.Core.dll
 D:\github\Std.Tyot\Web.UI.Mvc.Core\obj\Debug\net5.0\Web.UI.Mvc.Core.pdb
 D:\github\Std.Tyot\Web.UI.Mvc.Core\obj\Debug\net5.0\Web.UI.Mvc.Core.genruntimeconfig.cache
+C:\Users\syabd\Documents\GitHub\Std.Tyot\Web.UI.Mvc.Core\obj\Debug\net5.0\Razor\Views\Universities\Faculty.cshtml.g.cs

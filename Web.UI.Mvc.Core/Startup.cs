@@ -46,8 +46,9 @@ namespace Web.UI.Mvc.Core
             services.AddScoped(typeof(IUniversityService), typeof(UniversityService));
             services.AddScoped(typeof(IFacultyService), typeof(FacultyService));
             services.AddScoped(typeof(ICityService), typeof(CityService));
-
-
+            services.AddScoped(typeof(IUniversityGalleryService), typeof(UniversityGalleryService));
+            services.AddScoped(typeof(ICollegeService), typeof(CollegeService));
+            services.AddScoped(typeof(IStudingDegreeService), typeof(StudingDegreeService));
 
             services.AddDbContext<TyottrContext>(options =>
             {

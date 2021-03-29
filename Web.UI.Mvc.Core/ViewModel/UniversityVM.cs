@@ -15,10 +15,12 @@ namespace Web.UI.Mvc.Core.ViewModel
             universities = new List<University>();
             cities = new List<City>();
             faculties = new List<Faculty>();
+            universityGallery = new List<UniversityGalery>();
         }
         public University university { get; set; }
         public IEnumerable<University>  universities{ get; set; }
         public IEnumerable<City>  cities{ get; set; }
         public IEnumerable<Faculty> faculties { get; set; }
+        public IEnumerable<UniversityGalery> universityGallery { get; set; }
     }
 }
