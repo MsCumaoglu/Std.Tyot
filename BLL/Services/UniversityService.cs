@@ -24,8 +24,4 @@ namespace BLL.Services
             return Update(entity);
         }
     }
-
-
-
-
 }

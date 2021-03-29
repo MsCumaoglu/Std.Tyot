@@ -14,18 +14,18 @@ namespace BLL.Services
 
         public async Task<IEnumerable<College>> GetCollegesByFacultyIdAsync(int id)
         {
-            return await Where(x=>x.FacultyId== id && x.isActive == true);
+            return await Where(x=>x.FacultyId== id && x.IsActive == true);
         }
 
         public College IsActiveFalse(College _entity)
         {
-            _entity.isActive = false;
+            _entity.IsActive = false;
             return Update(_entity);
         }
 
         public College IsActiveTrue(College _entity)
         {
-            _entity.isActive = true;
+            _entity.IsActive = true;
             return Update(_entity);
         }
     }

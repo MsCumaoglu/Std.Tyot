@@ -21,6 +21,7 @@ namespace Core.Models
             MessageSendToUserNavigation = new HashSet<Message>();
             MessageSenderUserNavigation = new HashSet<Message>();
             TeamMemberMap = new HashSet<TeamMemberMap>();
+            UniversityComment = new HashSet<UniversityComment>();
             UserRoleMap = new HashSet<UserRoleMap>();
             UserSetting = new HashSet<UserSetting>();
             UserSocialMap = new HashSet<UserSocialMap>();
@@ -75,6 +76,8 @@ namespace Core.Models
         public virtual ICollection<Message> MessageSenderUserNavigation { get; set; }
         [InverseProperty("User")]
         public virtual ICollection<TeamMemberMap> TeamMemberMap { get; set; }
+        [InverseProperty("User")]
+        public virtual ICollection<UniversityComment> UniversityComment { get; set; }
         [InverseProperty("User")]
         public virtual ICollection<UserRoleMap> UserRoleMap { get; set; }
         [InverseProperty("User")]

@@ -15,6 +15,13 @@ namespace Core.Models
         public int Id { get; set; }
         public int? UnivId { get; set; }
         public int? LanguageId { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime? UpadatDate { get; set; }
+        public string Description { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime? CreatedDate { get; set; }
+        [Column("isActive")]
+        public bool? IsActive { get; set; }
 
         [ForeignKey(nameof(LanguageId))]
         [InverseProperty("LnaguageUniversityMap")]

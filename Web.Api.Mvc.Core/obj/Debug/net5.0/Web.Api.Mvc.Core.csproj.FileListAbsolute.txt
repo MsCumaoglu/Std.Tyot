@@ -75,3 +75,13 @@ C:\Users\Misso\Documents\GitHub\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\Web.A
 C:\Users\Misso\Documents\GitHub\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\ref\Web.Api.Mvc.Core.dll
 C:\Users\Misso\Documents\GitHub\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\Web.Api.Mvc.Core.pdb
 C:\Users\Misso\Documents\GitHub\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\Web.Api.Mvc.Core.genruntimeconfig.cache
+D:\github\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\Web.Api.Mvc.Core.csprojAssemblyReference.cache
+D:\github\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\Web.Api.Mvc.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\Web.Api.Mvc.Core.AssemblyInfoInputs.cache
+D:\github\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\Web.Api.Mvc.Core.AssemblyInfo.cs
+D:\github\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\Web.Api.Mvc.Core.csproj.CoreCompileInputs.cache
+D:\github\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\Web.Api.Mvc.Core.MvcApplicationPartsAssemblyInfo.cs
+D:\github\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\Web.Api.Mvc.Core.MvcApplicationPartsAssemblyInfo.cache
+D:\github\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\Web.Api.Mvc.Core.dll
+D:\github\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\ref\Web.Api.Mvc.Core.dll
+D:\github\Std.Tyot\Web.Api.Mvc.Core\obj\Debug\net5.0\Web.Api.Mvc.Core.pdb

@@ -186,6 +186,10 @@
          "ObjectType": 0
       },
       {
+         "Name": "[dbo].[UniversityComment]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[dbo].[UniversityGalery]",
          "ObjectType": 0
       },
@@ -206,7 +210,7 @@
          "ObjectType": 0
       }
    ],
-   "UiHint": "DESKTOP-PKOM3EK\\MUSTAFA.Tyottr",
+   "UiHint": "DESKTOP-PSTIVTJ.Tyottr",
    "UseBoolPropertiesWithoutDefaultSql": false,
    "UseDatabaseNames": false,
    "UseDbContextSplitting": false,

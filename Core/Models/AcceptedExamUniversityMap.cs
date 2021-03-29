@@ -15,7 +15,15 @@ namespace Core.Models
         public int Id { get; set; }
         public int? UniversityId { get; set; }
         public int? ExamId { get; set; }
-        public bool isActive { get; set; }
+        [StringLength(4)]
+        public string YearAccepte { get; set; }
+        [Column("isActive")]
+        public bool? IsActive { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime? UpadatDate { get; set; }
+        public string Description { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime? CreatedDate { get; set; }
 
         [ForeignKey(nameof(ExamId))]
         [InverseProperty(nameof(AcceptedExam.AcceptedExamUniversityMap))]

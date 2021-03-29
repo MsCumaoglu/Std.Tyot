@@ -20,8 +20,13 @@ namespace Core.Models
         [Column("isVideo")]
         public bool? IsVideo { get; set; }
         public int? UinversityId { get; set; }
+        [Column("isActive")]
         public bool? IsActive { get; set; }
-
+        [Column(TypeName = "datetime")]
+        public DateTime? UpadatDate { get; set; }
+        public string Description { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime? CreatedDate { get; set; }
 
         [ForeignKey(nameof(UinversityId))]
         [InverseProperty(nameof(University.UniversityGalery))]

@@ -14,7 +14,7 @@ namespace BLL.Services
 
         public async Task<IEnumerable<UniversityGalery>> GetImagesByUniversityIdAsync(int id)
         {
-            return await Where(x=>x.UinversityId== id && x.IsActive == true);
+            return await Where(x=>x.UinversityId== id );
         }
 
         public UniversityGalery IsActiveFalse(UniversityGalery entity)

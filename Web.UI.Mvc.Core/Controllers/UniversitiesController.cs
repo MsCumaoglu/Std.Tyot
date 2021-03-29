@@ -10,10 +10,10 @@ namespace Web.UI.Mvc.Core.Controllers
 {
     public class UniversitiesController : Controller
     {
-        private readonly IUniverstyService _universtyService;
+        private readonly IUniversityService _universtyService;
         private readonly IFacultyService _facultyService;
         private readonly ICityService _cityService;
-        public UniversitiesController(IUniverstyService universtyService, ICityService cityService,IFacultyService facultyService)
+        public UniversitiesController(IUniversityService universtyService, ICityService cityService,IFacultyService facultyService)
         {
             _universtyService = universtyService;
             _cityService = cityService;
@@ -31,7 +31,7 @@ namespace Web.UI.Mvc.Core.Controllers
         {
             UniversityVM data = new UniversityVM();
             data.university = await _universtyService.GetByIdAsync(id);
-            data.faculties = await _facultyService.GetFacultiesByUnversityIdAsync(id);
+            data.faculties = await _facultyService.GetFacultiesByUniversityIdAsync(id);
             return View(data);
         }
 

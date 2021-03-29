@@ -18,7 +18,7 @@ namespace Core.Models
 
         [Key]
         public int Id { get; set; }
-        [StringLength(150)]
+        [StringLength(250)]
         public string Title { get; set; }
         public string NewsContent { get; set; }
         [StringLength(250)]
